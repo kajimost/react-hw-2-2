@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+img {
+  max-width: 100%;
+}
+
+.store {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0 50px;
+}
+
+.switcher {
+  margin-bottom: 30px;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.cards-item {
+  max-width: 320px;
+  padding: 30px;
+  margin-bottom: 50px;
+  box-sizing: border-box;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f6f6f6;
+}
+
+.card-name {
+  width: 100%;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.card-color {
+  width: 100%;
+  text-align: center;
+  text-transform: lowercase;
+  color: #333333;
+}
+
+.card-img {
+  width: 100%;
+}
+
+.card-price {
+  font-size: 18px;
+  color: #fe2d2d;
+}
+
+.list-items {
+  display: flex;
+  flex-direction: column;
+}
+
+.list-item {
+  width: 100%;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 10px;
+  background-color: #f6f6f6;
+}
+
+.item-img {
+  max-width: 100px;
+}
+
+.item-name {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.item-color {
+  text-transform: lowercase;
+  color: #333333;
+}
+
+.item-price {
+  font-size: 18px;
+  color: #fe2d2d;
+}
+
+.add-btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 6px 12px;
+  color: #fe2d2d;
+  border: 1px solid #fe2d2d; 
+  border-radius: 32px;
+  cursor: pointer;
+}
